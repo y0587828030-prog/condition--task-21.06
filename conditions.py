@@ -24,7 +24,11 @@ define_battery = 15
 is_charging = True
 if define_battery < 20 and is_charging == True:
     print("low battery, charging now")
-
+if define_battery < 20 and is_charging != True:
+    print("low battery, connect charger")
+else:
+    print("battery OK")
+    
 
 
 
