@@ -1,3 +1,7 @@
+#Part 2 — Optional Advanced Basics: Mini Apps and Small Games
+
+#1.	One Turn Adventure Game
+
 trip=input("where do you want to go? ")
 match trip:
     case "forest":
@@ -24,3 +28,8 @@ match trip:
         print("you find boat")
     case _:
         print("unknoen place")
+
+#2.	Mini Calculator App
+num_1 = float(input("choose first number"))
+num_2 = float(input("choose second number"))
+action = input("whitch action you want")
