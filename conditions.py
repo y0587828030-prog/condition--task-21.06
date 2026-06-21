@@ -59,14 +59,17 @@
 #     print("Not enough fuel")
 
 #stap 9
-given_username = input("given username ")
+given_username = input("Please fill in your name. ")
+print("hello",given_username)
 username = "yehosh"
 if given_username == username:
-    print("hello yehosh")
+    print("usernme")
 
 else:
     print("guest user ")
 
+#stap 10
+time = input("Enter the time ")
 
 
 
