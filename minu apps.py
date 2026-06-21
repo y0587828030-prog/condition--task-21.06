@@ -33,3 +33,11 @@ match trip:
 num_1 = float(input("choose first number"))
 num_2 = float(input("choose second number"))
 action = input("whitch action you want")
+if action == "add":
+    print(num_1 + num_2)
+elif action == "subtract":
+    print(num_1 - num_2)
+elif action == "multiply":
+    print(num_1 * num_2)
+else:
+    print("unknoen action")
