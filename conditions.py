@@ -47,16 +47,26 @@
 # if given_namber_1 == given_namber_2:
 #     print("equal")
 
-#stap 8
-define = 40
-distance = 30
+# #stap 8
+# define = 40
+# distance = 30
 
-if define - distance > 9:
-    print("Enough fuel with reserve")
-elif define - distance > 0:
-    print("Enough fuel, low reserve")
+# if define - distance > 9:
+#     print("Enough fuel with reserve")
+# elif define - distance > 0:
+#     print("Enough fuel, low reserve")
+# else:
+#     print("Not enough fuel")
+
+#stap 9
+given_username = input("given username ")
+username = "yehosh"
+if given_username == username:
+    print("hello yehosh")
+
 else:
-    print("Not enough fuel")
+    print("guest user ")
+
 
 
 
