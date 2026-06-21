@@ -29,13 +29,23 @@
 # else:
 #     print("battery OK")
 
-#stap 5
-given_password = (input("given_passwor"))
-password = "python123"
-if given_password == password:
-    print("access approved ")
-else:
-    print("access danied ")
+# #stap 5
+# given_password = (input("given_passwor"))
+# password = "python123"
+# if given_password == password:
+#     print("access approved ")
+# else:
+#     print("access danied ")
+
+#stap 7
+given_namber_1 = (input("given tow namber 1 "))
+given_namber_2 = (input("given tow namber 2 "))
+if given_namber_1 > given_namber_2:
+    print("first is bigger")
+if given_namber_2 > given_namber_1:
+    print("second is bigger")
+if given_namber_1 == given_namber_2:
+    print("equal")
 
 
 
