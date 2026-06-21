@@ -20,15 +20,23 @@
 #     print("odd number")
 
 #stap 4
-define_battery = 15
-is_charging = True
-if define_battery < 20 and is_charging == True:
-    print("low battery, charging now")
-if define_battery < 20 and is_charging != True:
-    print("low battery, connect charger")
+# define_battery = 15
+# is_charging = True
+# if define_battery < 20 and is_charging == True:
+#     print("low battery, charging now")
+# if define_battery < 20 and is_charging != True:
+#     print("low battery, connect charger")
+# else:
+#     print("battery OK")
+
+#stap 5
+given_password = (input("given_passwor"))
+password = "python123"
+if given_password == password:
+    print("access approved ")
 else:
-    print("battery OK")
-    
+    print("access danied ")
+
 
 
 
