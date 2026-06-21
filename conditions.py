@@ -12,7 +12,12 @@ if temperature > 37.5:
 else:
     print("High temperature")
 
-
+#stap 3
+geiven_namber = int(input("geiven namber "))
+if geiven_namber % 2 == 0:
+    print("even number")
+else:
+    print("odd number")
 
 
 
