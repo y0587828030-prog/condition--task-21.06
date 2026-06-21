@@ -1,0 +1,2 @@
+#Mini Apps and Small Games
+place = input("where do you went to go? (forest/cave/river): ")
