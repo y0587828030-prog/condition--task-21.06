@@ -38,14 +38,25 @@
 #     print("access danied ")
 
 #stap 7
-given_namber_1 = (input("given tow namber 1 "))
-given_namber_2 = (input("given tow namber 2 "))
-if given_namber_1 > given_namber_2:
-    print("first is bigger")
-if given_namber_2 > given_namber_1:
-    print("second is bigger")
-if given_namber_1 == given_namber_2:
-    print("equal")
+# given_namber_1 = (input("given tow namber 1 "))
+# given_namber_2 = (input("given tow namber 2 "))
+# if given_namber_1 > given_namber_2:
+#     print("first is bigger")
+# if given_namber_2 > given_namber_1:
+#     print("second is bigger")
+# if given_namber_1 == given_namber_2:
+#     print("equal")
+
+#stap 8
+define = 40
+distance = 30
+
+if define - distance > 9:
+    print("Enough fuel with reserve")
+elif define - distance > 0:
+    print("Enough fuel, low reserve")
+else:
+    print("Not enough fuel")
 
 
 
